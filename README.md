@@ -32,10 +32,10 @@
 ## Spelkontroller
 
 **Grön spelare:**
-- Uppåt: `UP`
-- Nedåt: `DOWN`
-- Vänster: `LEFT`
-- Höger: `RIGHT`
+- Uppåt: `Arrow UP`
+- Nedåt: `Arrow DOWN`
+- Vänster: `Arrow LEFT`
+- Höger: `Arrow RIGHT`
 - Skjut: `SPACE`
 
 **Grå spelare:**
