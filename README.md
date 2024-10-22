@@ -1,6 +1,6 @@
-# Dog Fight Game
+# DogFight 
 
-**Dog Fight** är ett 2D spel jag gjorde som slutprojekt i programmering 1 där två spelare styr var sitt plan och försöker skjuta ner varandra med skott.
+**DogFight** är ett 2D spel jag gjorde som slutprojekt i programmering 1 där två spelare styr var sitt plan och försöker skjuta ner varandra med skott.
 
 ## Funktioner
 
