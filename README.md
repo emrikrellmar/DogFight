@@ -1,59 +1,60 @@
-# DogFight 
+# DogFight
 
-**DogFight** är ett 2D spel jag gjorde som slutprojekt i programmering 1 där två spelare styr var sitt plan och försöker skjuta ner varandra med skott.
+**DogFight** is a 2D game I created as the final project for **Programming 1**, where two players control their own planes and try to shoot each other down.
 
-## Funktioner
+## Features
 
-- Två spelare (grön och grå) styr varsitt skepp och kan röra sig i alla riktningar på skärmen.
-- Skjut skott för att försöka träffa motståndaren.
-- Kollisioner mellan skeppen minskar poängen för båda spelarna.
-- Kulor kan kollidera med varandra och försvinner då.
-- Spelet håller reda på poängen för varje spelare, och en vinnare koras när någon når 10 poäng.
+* Two players (green and gray) control separate planes and can move freely in all directions on the screen.
+* Shoot bullets to try and hit your opponent.
+* Collisions between planes decrease both players' scores.
+* Bullets can collide with each other and disappear upon impact.
+* The game keeps track of each player’s score, and a winner is declared when someone reaches 10 points.
 
-## Installation och körning
+## Installation and Running the Game
 
-1. Klona detta repository till din dator:
+1. Clone this repository to your computer:
 
    ```bash
-   git clone https://github.com/ditt-användarnamn/DogFight.git
+   git clone https://github.com/your-username/DogFight.git
    ```
 
-2. Öppna projektet i din Java IDE (t.ex. IntelliJ IDEA eller Eclipse).
+2. Open the project in your Java IDE (e.g., IntelliJ IDEA or Eclipse).
 
-3. Bygg och kör projektet genom att exekvera `GameCanvas`-klassen, som innehåller spelets huvudloop och hantering av tangentbord.
+3. Build and run the project by executing the `GameCanvas` class, which contains the main game loop and keyboard handling.
 
-4. Alternativt kan du kompilera och köra spelet via terminalen:
+4. Alternatively, you can compile and run the game from the terminal:
 
    ```bash
    javac GameCanvas.java
    java GameCanvas
    ```
 
-## Spelkontroller
+## Controls
 
-**Grön spelare:**
-- Uppåt: `Arrow UP`
-- Nedåt: `Arrow DOWN`
-- Vänster: `Arrow LEFT`
-- Höger: `Arrow RIGHT`
-- Skjut: `SPACE`
+**Green Player:**
 
-**Grå spelare:**
-- Uppåt: `W`
-- Nedåt: `S`
-- Vänster: `A`
-- Höger: `D`
-- Skjut: `Q`
+* Up: `Arrow UP`
+* Down: `Arrow DOWN`
+* Left: `Arrow LEFT`
+* Right: `Arrow RIGHT`
+* Shoot: `SPACE`
 
-**Övriga tangenter:**
-- Starta om spelet: `ENTER`
-- Avsluta spelet: `ESC`
+**Gray Player:**
 
-## Spelets regler
+* Up: `W`
+* Down: `S`
+* Left: `A`
+* Right: `D`
+* Shoot: `Q`
 
-- Om en spelare träffas av en kula, får motståndaren en poäng.
-- Om skeppen krockar, återställs deras positioner och båda spelarna förlorar en poäng.
-- Kulor som kolliderar med varandra försvinner.
-- Den spelare som når 10 poäng först vinner spelet.
+**Other Keys:**
 
-## Skärmdumpar från spelet
+* Restart the game: `ENTER`
+* Quit the game: `ESC`
+
+## Game Rules
+
+* If a player is hit by a bullet, the opponent scores one point.
+* If the planes collide, both players lose one point and their positions are reset.
+* Bullets that collide with each other are destroyed.
+* The first player to reach 10 points wins the game.
